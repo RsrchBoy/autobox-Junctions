@@ -4,7 +4,7 @@ autobox::Junctions - Autoboxified junction-style operators
 
 # VERSION
 
-This document describes version 0.001 of autobox::Junctions - released October 01, 2013 as part of autobox-Junctions.
+This document describes version 0.001 of autobox::Junctions - released October 03, 2013 as part of autobox-Junctions.
 
 # SYNOPSIS
 
@@ -39,21 +39,15 @@ This document describes version 0.001 of autobox::Junctions - released October 0
 
 This is a simple autoboxifying wrapper around [Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction),
 that provides array and array references with the functions provided by that
-package as methods for arrays: [any](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#any),
+package as methods for arrays:
+[any](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#any),
 [all](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#all), [one](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#one),
 and [none](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#none).
 
 # AUTOBOXED METHODS
 
-See:
-
-["any" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#any)
-,
-LSyntax::Keyword::Junction/all>
-,
-["one" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#one)
-,
-["none" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#none)
+See: ["any" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#any), LSyntax::Keyword::Junction/all>,
+["one" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#one), and ["none" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#none).
 
 # SEE ALSO
 
@@ -63,8 +57,17 @@ Please see those modules/websites for more information related to this module.
 
 # SOURCE
 
-The development version is on github at [http://github.com//autobox-Junctions](http://github.com//autobox-Junctions)
-and may be cloned from [git://github.com//autobox-Junctions.git](git://github.com//autobox-Junctions.git)
+The development version is on github at [http://github.com/RsrchBoy/autobox-Junctions](http://github.com/RsrchBoy/autobox-Junctions)
+and may be cloned from [git://github.com/RsrchBoy/autobox-Junctions.git](git://github.com/RsrchBoy/autobox-Junctions.git)
+
+# BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/RsrchBoy/autobox-Junctions/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
 
 # AUTHOR
 
