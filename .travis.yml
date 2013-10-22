@@ -29,7 +29,7 @@ before_install:
    - HARNESS_OPTIONS=j8:c cpanm -q --reinstall  Dist::Zilla || { cat ~/.cpanm/build.log ; false ; }
 
    # for DZP LinkCheck
-   - cpanm -q CPANPLUS ||  || { cat ~/.cpanm/build.log ; false ; }
+   - cpanm -q CPANPLUS || { cat ~/.cpanm/build.log ; false ; }
    - cpanp x
 
 install:
