@@ -75,11 +75,13 @@ and L<none|Syntax::Keyword::Junction/none>.
 
 =head1 AUTOBOXED METHODS
 
-See: L<Syntax::Keyword::Junction/any>, LSyntax::Keyword::Junction/all>,
+See: L<Syntax::Keyword::Junction/any>, L<Syntax::Keyword::Junction/all>,
 L<Syntax::Keyword::Junction/one>, and L<Syntax::Keyword::Junction/none>.
 
 =head1 SEE ALSO
 
 Syntax::Keyword::Junction
+
+autobox
 
 =cut
