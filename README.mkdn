@@ -1,10 +1,14 @@
+[![Build Status](https://travis-ci.org/RsrchBoy/autobox-Junctions.svg?branch=master)](https://travis-ci.org/RsrchBoy/autobox-Junctions)
+[![Kwalitee status](http://cpants.cpanauthors.org/dist/autobox-Junctions.png)](http://cpants.charsbar.org/dist/overview/autobox-Junctions)
+[![Coverage Status](https://coveralls.io/repos/RsrchBoy/autobox-Junctions/badge.svg?branch=master)](https://coveralls.io/r/RsrchBoy/autobox-Junctions?branch=master)
+
 # NAME
 
 autobox::Junctions - Autoboxified junction-style operators
 
 # VERSION
 
-This document describes version 0.001 of autobox::Junctions - released October 03, 2013 as part of autobox-Junctions.
+This document describes version 0.002 of autobox::Junctions - released June 22, 2016 as part of autobox-Junctions.
 
 # SYNOPSIS
 
@@ -37,28 +41,24 @@ This document describes version 0.001 of autobox::Junctions - released October 0
 
 # DESCRIPTION
 
-This is a simple autoboxifying wrapper around [Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction),
+This is a simple autoboxifying wrapper around [Syntax::Keyword::Junction](https://metacpan.org/pod/Syntax::Keyword::Junction),
 that provides array and array references with the functions provided by that
 package as methods for arrays:
-[any](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#any),
-[all](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#all), [one](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#one),
-and [none](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#none).
+[any](https://metacpan.org/pod/Syntax::Keyword::Junction#any),
+[all](https://metacpan.org/pod/Syntax::Keyword::Junction#all), [one](https://metacpan.org/pod/Syntax::Keyword::Junction#one),
+and [none](https://metacpan.org/pod/Syntax::Keyword::Junction#none).
 
 # AUTOBOXED METHODS
 
-See: ["any" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#any), LSyntax::Keyword::Junction/all>,
-["one" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#one), and ["none" in Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction#none).
+See: ["any" in Syntax::Keyword::Junction](https://metacpan.org/pod/Syntax::Keyword::Junction#any), ["all" in Syntax::Keyword::Junction](https://metacpan.org/pod/Syntax::Keyword::Junction#all),
+["one" in Syntax::Keyword::Junction](https://metacpan.org/pod/Syntax::Keyword::Junction#one), and ["none" in Syntax::Keyword::Junction](https://metacpan.org/pod/Syntax::Keyword::Junction#none).
 
 # SEE ALSO
 
 Please see those modules/websites for more information related to this module.
 
-- [Syntax::Keyword::Junction](http://search.cpan.org/perldoc?Syntax::Keyword::Junction)
-
-# SOURCE
-
-The development version is on github at [http://github.com/RsrchBoy/autobox-Junctions](http://github.com/RsrchBoy/autobox-Junctions)
-and may be cloned from [git://github.com/RsrchBoy/autobox-Junctions.git](git://github.com/RsrchBoy/autobox-Junctions.git)
+- [Syntax::Keyword::Junction](https://metacpan.org/pod/Syntax::Keyword::Junction)
+- [autobox](https://metacpan.org/pod/autobox)
 
 # BUGS
 
@@ -72,6 +72,27 @@ feature.
 # AUTHOR
 
 Chris Weyl <cweyl@alumni.drew.edu>
+
+## I'm a material boy in a material world
+
+<div>
+    <a href="https://gratipay.com/RsrchBoy/"><img src="http://img.shields.io/gratipay/RsrchBoy.svg" /></a>
+    <a href="http://bit.ly/rsrchboys-wishlist"><img src="http://wps.io/wp-content/uploads/2014/05/amazon_wishlist.resized.png" /></a>
+    <a href="https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fautobox-Junctions&title=RsrchBoy's%20CPAN%20autobox-Junctions&tags=%22RsrchBoy's%20autobox-Junctions%20in%20the%20CPAN%22"><img src="http://api.flattr.com/button/flattr-badge-large.png" /></a>
+</div>
+
+Please note **I do not expect to be gittip'ed or flattr'ed for this work**,
+rather **it is simply a very pleasant surprise**. I largely create and release
+works like this because I need them or I find it enjoyable; however, don't let
+that stop you if you feel like it ;)
+
+[Flattr](https://flattr.com/submit/auto?user_id=RsrchBoy&url=https%3A%2F%2Fgithub.com%2FRsrchBoy%2Fautobox-Junctions&title=RsrchBoy&#x27;s%20CPAN%20autobox-Junctions&tags=%22RsrchBoy&#x27;s%20autobox-Junctions%20in%20the%20CPAN%22),
+[Gratipay](https://gratipay.com/RsrchBoy/), or indulge my
+[Amazon Wishlist](http://bit.ly/rsrchboys-wishlist)...  If and \*only\* if you so desire.
+
+# CONTRIBUTOR
+
+Сергей Романов <sromanov-dev@yandex.ru>
 
 # COPYRIGHT AND LICENSE
 
